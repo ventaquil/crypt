@@ -49,6 +49,13 @@ namespace ventaquil {
          * @return unsigned integer
          */
         unsigned int pow_mod(unsigned int value, unsigned int index, unsigned int mod);
+
+        /**
+         * @param double n
+         * @param double p
+         * @return double
+         */
+        double round(double n, double p);
     }
 }
 

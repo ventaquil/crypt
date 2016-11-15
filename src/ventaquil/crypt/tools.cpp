@@ -103,5 +103,20 @@ namespace ventaquil {
                 return result;
             }
         }
+
+        /**
+         * @param double n
+         * @param double p
+         * @return double
+         */
+        double round(double n, double p) {
+            p = pow(10, p);
+
+            n *= p;
+            n = ::round(n);
+            n /= p;
+
+            return n;
+        }
     }
 }
