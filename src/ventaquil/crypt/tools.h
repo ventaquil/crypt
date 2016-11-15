@@ -22,6 +22,13 @@ namespace ventaquil {
         bool congruence(unsigned int left, unsigned int right, unsigned int mod);
 
         /**
+         * @param unsigned int a
+         * @param unsigned int b
+         * @return unsigned int
+         */
+        unsigned int gcd(unsigned int a, unsigned int b);
+
+        /**
          * @param double value
          * @param double base
          * @return double

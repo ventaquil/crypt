@@ -40,6 +40,21 @@ namespace ventaquil {
         }
 
         /**
+         * @param unsigned int a
+         * @param unsigned int b
+         * @return unsigned int
+         */
+        unsigned int gcd(unsigned int a, unsigned int b) {
+            if (a < b) {
+                return gcd(b, a);
+            } else if (b == 0) {
+                return a;
+            } else {
+                return gcd(b, a % b);
+            }
+        }
+
+        /**
          * @param double value
          * @param double base
          * @return double

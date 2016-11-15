@@ -55,5 +55,22 @@ int main() {
     cout << "log13(27) = 1.28495" << endl;
     cout << "  Result: " << setprecision(6) << log(27, 13) << endl;
 
+    cout << endl << "- - - - - - - - - - - - -"
+         << endl << endl << "Greatest common divisor"
+         << endl << endl;
+
+    cout << "gcd(63, 643) = 1" << endl;
+    cout << "  Result: " << gcd(63, 643) << endl;
+
+    cout << endl;
+
+    cout << "gcd(27, 66) = 3" << endl;
+    cout << "  Result: " << gcd(27, 66) << endl;
+
+    cout << endl;
+
+    cout << "gcd(1529, 14039) = 139" << endl;
+    cout << "  Result: " << gcd(1529, 14039) << endl;
+
     return 0;
 }
