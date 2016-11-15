@@ -72,5 +72,22 @@ int main() {
     cout << "gcd(1529, 14039) = 139" << endl;
     cout << "  Result: " << gcd(1529, 14039) << endl;
 
+    cout << endl << "- - - - - - - - - - - - -"
+         << endl << endl << "Least common multiple"
+         << endl << endl;
+
+    cout << "lcm(1000, 625) = 5000" << endl;
+    cout << "  Result: " << lcm(1000, 625) << endl;
+
+    cout << endl;
+
+    cout << "lcm(24, 124) = 744" << endl;
+    cout << "  Result: " << lcm(24, 124) << endl;
+
+    cout << endl;
+
+    cout << "lcm(9, 12) = 36" << endl;
+    cout << "  Result: " << lcm(9, 12) << endl;
+
     return 0;
 }

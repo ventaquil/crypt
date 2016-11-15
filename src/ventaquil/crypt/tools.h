@@ -29,6 +29,13 @@ namespace ventaquil {
         unsigned int gcd(unsigned int a, unsigned int b);
 
         /**
+         * @param unsigned int a
+         * @param unsigned int b
+         * @return unsigned int
+         */
+        unsigned int lcm(unsigned int a, unsigned int b);
+
+        /**
          * @param double value
          * @param double base
          * @return double
