@@ -24,6 +24,13 @@ namespace ventaquil {
 
             /**
              * @param int number
+             * @param int modulo
+             * @return unsigned int
+             */
+            unsigned int mod(int number, int modulo);
+
+            /**
+             * @param int number
              * @param unsigned int modulo
              * @return unsigned int
              */

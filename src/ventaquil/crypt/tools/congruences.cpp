@@ -32,10 +32,10 @@ namespace ventaquil {
 
             /**
              * @param int number
-             * @param unsigned int modulo
+             * @param int modulo
              * @return unsigned int
              */
-            unsigned int mod(int number, unsigned int modulo) {
+            unsigned int mod(int number, int modulo) {
                 number %= modulo;
 
                 if (number < 0) {
@@ -43,6 +43,15 @@ namespace ventaquil {
                 }
 
                 return (unsigned int) number;
+            }
+
+            /**
+             * @param int number
+             * @param unsigned int modulo
+             * @return unsigned int
+             */
+            unsigned int mod(int number, unsigned int modulo) {
+                return mod(number, (int) modulo);
             }
 
             /**
