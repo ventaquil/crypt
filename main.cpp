@@ -3,7 +3,7 @@
 #include "src/ventaquil/crypt.h"
 
 using namespace std;
-using namespace ventaquil::crypt;
+using namespace ventaquil::crypt::tools;
 
 int main() {
     cout << "Modular Exponentiation" << endl << endl;
