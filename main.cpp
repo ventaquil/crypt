@@ -3,7 +3,7 @@
 #include "src/ventaquil/crypt.h"
 
 using namespace std;
-using namespace ventaquil::crypt;
+using namespace ventaquil::crypt::tools;
 
 void congruences(void);
 void greatestCommonDivisor(void);
