@@ -46,5 +46,6 @@ namespace ventaquil {
 }
 
 #include "tools/congruences.h"
+#include "tools/symbols.h"
 
 #endif //CRYPT_TOOLS_H

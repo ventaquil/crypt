@@ -6,5 +6,5 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(SOURCE_FILES
         main.cpp
         src/ventaquil/crypt/tools.cpp
-        src/ventaquil/crypt/tools/congruences.cpp)
+        src/ventaquil/crypt/tools/congruences.cpp src/ventaquil/crypt/tools/symbols.cpp)
 add_executable(crypt ${SOURCE_FILES})

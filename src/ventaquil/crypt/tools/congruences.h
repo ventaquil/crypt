@@ -7,41 +7,19 @@ namespace ventaquil {
     namespace crypt {
         namespace tools {
             /**
-             * @param int left
-             * @param int right
-             * @param unsigned int modulo
+             * @param long long int left
+             * @param long long int right
+             * @param unsigned long long int modulo
              * @return boolean
              */
-            bool congruence(int left, int right, unsigned int modulo);
+            bool congruence(long long int left, long long int right, unsigned long long int modulo);
 
             /**
-             * @param unsigned int left
-             * @param unsigned int right
-             * @param unsigned int modulo
-             * @return boolean
+             * @param long long int number
+             * @param long long int modulo
+             * @return unsigned long long int
              */
-            bool congruence(unsigned int left, unsigned int right, unsigned int modulo);
-
-            /**
-             * @param int number
-             * @param int modulo
-             * @return unsigned int
-             */
-            unsigned int mod(int number, int modulo);
-
-            /**
-             * @param int number
-             * @param unsigned int modulo
-             * @return unsigned int
-             */
-            unsigned int mod(int number, unsigned int modulo);
-
-            /**
-             * @param unsigned int number
-             * @param unsigned int modulo
-             * @return unsigned int
-             */
-            unsigned int mod(unsigned int number, unsigned int modulo);
+            unsigned long long int mod(long long int number, long long int modulo);
         }
     }
 }

@@ -7,6 +7,7 @@ using namespace ventaquil::crypt::tools;
 
 void congruences(void);
 void greatestCommonDivisor(void);
+void jacobiSymbol(void);
 void leastCommonMultiple(void);
 void logarithms(void);
 void modularExponentiation(void);
@@ -30,6 +31,10 @@ int main(void) {
     separator();
 
     leastCommonMultiple();
+
+    separator();
+
+    jacobiSymbol();
 
     return 0;
 }
@@ -87,6 +92,51 @@ void greatestCommonDivisor(void) {
     cout << "gcd(1529, 14039) = 139"
          << endl;
     cout << "  Result: " << gcd(1529, 14039)
+         << endl;
+}
+
+void jacobiSymbol(void) {
+    cout << "Jacobi Symbol"
+         << endl << endl;
+
+    cout << "jacobi(5, 11) = 1"
+         << endl;
+    cout << "  Result: " << symbols::jacobi(5, 11)
+         << endl;
+
+    cout << endl;
+
+    cout << "jacobi(87, 5561) = -1"
+         << endl;
+    cout << "  Result: " << symbols::jacobi(87, 5561)
+         << endl;
+
+    cout << endl;
+
+    cout << "jacobi(294, 9122) = 0"
+         << endl;
+    cout << "  Result: " << symbols::jacobi(294, 9122)
+         << endl;
+
+    cout << endl;
+
+    cout << "jacobi(532, 8751) = 1"
+         << endl;
+    cout << "  Result: " << symbols::jacobi(532, 8751)
+         << endl;
+
+    cout << endl;
+
+    cout << "jacobi(2385, 18454) = 1"
+         << endl;
+    cout << "  Result: " << symbols::jacobi(2385, 18454)
+         << endl;
+
+    cout << endl;
+
+    cout << "jacobi(875490234, 584063451) = 0"
+         << endl;
+    cout << "  Result: " << symbols::jacobi(875490234, 584063451)
          << endl;
 }
 
